@@ -1,0 +1,73 @@
+body{
+    background-color: #211f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container{
+    background-color: #282727;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.262);
+    width: 300px;
+    padding: 20px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.btn{
+    
+    background-color: #3b3b3b; /* Blue background */
+    color:#fff;
+    padding: 10px 15px; /* Some padding */
+    border-radius: 7px;
+    font-family: inter-bold;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+    margin-bottom: 5px;
+
+}
+
+    img {
+        clip-path: circle(50%); /* A perfect circle */
+        height: 80px;
+        width: 80px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+h5{
+    color: rgb(193, 236, 22);
+    text-align: center;
+    margin-top: 5px;
+}
+
+p{
+    text-align: center;
+    font-size: smaller;
+   
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.profile{
+    margin-top: 10px;
+}
